@@ -1,0 +1,21 @@
+<section>
+	<table class="tabela1" width="80%" border="1">
+		<thead>
+			<tr>
+				<th>Código</th>
+				<th>Nome</th>
+				<th>E-mail</th>
+				<th>Telefone</th>
+				<th>Data</th>
+				<th>Hora</th>
+				<th>Editar</th>
+				<th>Excluir</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php
+				lista_agendas();
+			?>
+		</tbody>
+	</table>
+</section>
